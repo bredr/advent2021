@@ -10,14 +10,10 @@ const fish = fs
 
 const state = init(fish);
 
-const finalState1 = Array(80)
-  .fill(0)
-  .reduce((acc) => evolve(acc), state);
+const finalState1 = Array(80).fill(0).reduce(evolve, state);
 
 console.log("result1", total(finalState1));
 
-const finalState2 = Array(256)
-  .fill(0)
-  .reduce((acc) => evolve(acc), state);
+const finalState2 = Array(256).fill(0).reduce(evolve, state);
 
 console.log("result2", total(finalState2));
