@@ -10,6 +10,8 @@
     "day4": "ts-node ./day4/index.ts",
     "day5": "ts-node ./day5/index.ts",
     "day5:test": "jest ./day5/*",
+    "day6": "ts-node ./day6/index.ts",
+    "day6:test": "jest ./day6/*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -22,6 +24,7 @@
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "jest": "^27.4.3",
+    "prettier": "2.5.1",
     "ts-jest": "^27.0.7"
   }
 }
