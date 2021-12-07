@@ -12,6 +12,8 @@
     "day5:test": "jest ./day5/*",
     "day6": "ts-node ./day6/index.ts",
     "day6:test": "jest ./day6/*",
+    "day7": "ts-node ./day7/index.ts",
+    "day7:test": "jest ./day7/*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
